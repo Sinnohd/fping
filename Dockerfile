@@ -1,4 +1,4 @@
-FROM alpine:3.19
+FROM alpine:3.21.0
 
 WORKDIR /opt/infping
 RUN apk add --no-cache fping
